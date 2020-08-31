@@ -99,7 +99,7 @@ def find_package_data(
 
 
 PACKAGE = "libpythonpro"  # Nome do diretório com código fonte de sua biblioteca
-NAME = PACKAGE  # Nome como ele vai ser instalado via pip. Ex: pip install libpythonpro
+NAME = "dacio_libpythonpro"  # Nome como ele vai ser instalado via pip. Ex: pip install libpythonpro
 DESCRIPTION = "# Repositório de exemplo do projeto PyTools."  # Brave descrição do projeto.
 AUTHOR = "Dácio Lima"  # Autor do Projeto
 AUTHOR_EMAIL = "dacio@email.com"  # Email do Autor

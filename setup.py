@@ -118,7 +118,7 @@ setup(
     long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
-    license=read('LICENSE'),
+    license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
     # Pacotes tests a serem excluidos
     packages=find_packages(exclude=["tests.*", "tests"]),

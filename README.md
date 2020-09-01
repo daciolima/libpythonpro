@@ -12,7 +12,7 @@
 pip install -e <path_diretorio_file_setup>
 ```
 
-OBS: 
+COMANDOS: 
 1 - Os comandos tags serve para gerar tags no seu projeto
 servindo também como nota de release(versão). 
 ```console
@@ -31,4 +31,8 @@ upload da lib para o pypi.org. DA forma abaixo será enviado todos os arquivos
 dentro do diretório dist.
 ```console
 twine upload dist/*
+```
+3 - Rodando o pytest
+```console
+pytest <Nome_Diretorio_Package>
 ```

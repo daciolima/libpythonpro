@@ -9,4 +9,8 @@ pluggy==0.13.1
 py==1.9.0
 pytest==6.0.1
 toml==0.10.1
+
+# Converage Meditor de cobertura de testes
+coverage==5.2.1
+pytest-cov==2.10.1
 -r requirements.txt

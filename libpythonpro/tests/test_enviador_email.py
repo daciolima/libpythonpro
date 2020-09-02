@@ -39,3 +39,4 @@ def test_remetente_invalido(remetente):
             'Análise de conteúdo',
             'Relatório de análise de conteúdo'
         )
+        return resultado

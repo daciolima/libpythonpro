@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/daciolima/libpythonpro.svg?branch=master)](https://travis-ci.org/daciolima/libpythonpro)
 [![Updates](https://pyup.io/repos/github/daciolima/libpythonpro/shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/daciolima/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)
-
+[![codecov](https://codecov.io/gh/daciolima/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/daciolima/libpythonpro)
 ##### Para instalar o setup da libcomo teste:
 > - Crie um venv de teste e ative-a;
 > - Rode o comando: 
@@ -35,4 +35,8 @@ twine upload dist/*
 3 - Rodando o pytest
 ```console
 pytest <Nome_Diretorio_Package>
+```
+4 - Medidor de cobertura de teste
+```console
+pytest libpythonpro --cov=<Pasta_raiz_de_teste>
 ```

@@ -40,3 +40,7 @@ pytest <Nome_Diretorio_Package>
 ```console
 pytest libpythonpro --cov=<Pasta_raiz_de_teste>
 ```
+
+#####OBS:
+>1 - baby steps(passos de bebê) = Realizar pequenas inserções possíveis 
+>para realizar teste.

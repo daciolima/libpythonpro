@@ -1,6 +1,6 @@
 import pytest
 
-from libpythonpro.spam.enviador_email import Enviador
+from libpythonpro.spam.enviador_email import Enviador, EmailInvalido
 
 
 def test_enviador_email():
@@ -23,3 +23,19 @@ def test_remetente_email(remetente):
         'Relatório de análise de conteúdo'
     )
     assert remetente in resultado
+
+
+@pytest.mark.parametrize(
+    'remetente',
+    ['', 'foo']
+)
+def test_remetente_invalido(remetente):
+    enviador = Enviador()
+    # Gerenciador de Contexto
+    with pytest.raises(EmailInvalido):
+        resultado = enviador.enviar(
+            remetente,
+            'suporte@email.com',
+            'Análise de conteúdo',
+            'Relatório de análise de conteúdo'
+        )

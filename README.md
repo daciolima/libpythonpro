@@ -1,5 +1,5 @@
 # Repositório de exemplo do projeto PyTools.
-# Confs de travis-ci, pyup e arquivos requirements!
+# Conteúdo de exercício de testes e CI.
 
 [![Build Status](https://travis-ci.org/daciolima/libpythonpro.svg?branch=master)](https://travis-ci.org/daciolima/libpythonpro)
 [![Updates](https://pyup.io/repos/github/daciolima/libpythonpro/shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)

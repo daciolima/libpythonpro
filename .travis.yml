@@ -7,7 +7,6 @@ install:
 script:
   - flake8
   - pytest libpythonpro --cov=libpythonpro
-
 # Enviar relatóro codecov após o build no travis-CI
 after_success:
   - codecov

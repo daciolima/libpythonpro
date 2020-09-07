@@ -1,5 +1,5 @@
-# Repositório de exemplo do projeto PyTools.
-##### Conteúdo sobre:
+# Repositório do Módulo PyTools do Curso PythonPro.
+##### Repositório contém conteúdo sobre:
 > - Criação de lib, config de setup e upload para site https://pypi.org
 > - Exercícios de testes unitários com pytest e pytest.fixture
 > - Integração Contínua com o travis-CI.

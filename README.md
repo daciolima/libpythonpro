@@ -11,13 +11,26 @@
 [![Updates](https://pyup.io/repos/github/daciolima/libpythonpro/shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)
 [![Python 3](https://pyup.io/repos/github/daciolima/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)
 [![codecov](https://codecov.io/gh/daciolima/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/daciolima/libpythonpro)
-##### Para instalar o setup da lib como teste:
-> - Criar um .venv de teste para lib, ativar e depois rodar o comando; 
+
+#### Teste da lib e medidor de cobertuta de teste.
+Rodando o pytest na lib. (Será testado apenas o métodos com prefixo test_)
+```console
+pytest <Nome_Diretorio_Package>
+```
+Medidor de cobertura de teste
+```console
+pytest libpythonpro --cov=<Pasta_raiz_de_teste>
+```
+
+
+####Comandos para criação e upload de lib para o pypi.org:
+
+Para instalar o setup da lib como teste local:
+> - Criar um .venv de teste para lib, ativar e depois rodar o comando:
 ```console
 pip install -e <path_diretorio_file_setup>
 ```
 
-Alguns comandos git: 
 1 - Os comandos tags serve para gerar tags no seu projeto
 servindo também como nota de release(versão). 
 ```console
@@ -36,14 +49,6 @@ upload da lib para o pypi.org. DA forma abaixo será enviado todos os arquivos
 dentro do diretório dist.
 ```console
 twine upload dist/*
-```
-3 - Rodando o pytest
-```console
-pytest <Nome_Diretorio_Package>
-```
-4 - Medidor de cobertura de teste
-```console
-pytest libpythonpro --cov=<Pasta_raiz_de_teste>
 ```
 
 #### Arquivos de confs

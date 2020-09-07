@@ -13,7 +13,7 @@
 [![codecov](https://codecov.io/gh/daciolima/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/daciolima/libpythonpro)
 
 #### Teste da lib e medidor de cobertuta de teste.
-Rodando o pytest na lib. (Será testado apenas o métodos com prefixo test_)
+Rodando o pytest de código na lib. (Será testado apenas o métodos com prefixo test_)
 ```console
 pytest <Nome_Diretorio_Package>
 ```
@@ -23,7 +23,7 @@ pytest libpythonpro --cov=<Pasta_raiz_de_teste>
 ```
 
 
-####Comandos para criação e upload de lib para o pypi.org:
+#### Comandos para criação e upload de lib para o pypi.org:
 
 Para instalar o setup da lib como teste local:
 > - Criar um .venv de teste para lib, ativar e depois rodar o comando:

@@ -13,7 +13,7 @@
 [![codecov](https://codecov.io/gh/daciolima/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/daciolima/libpythonpro)
 
 #### Teste da lib e medidor de cobertuta de teste.
-Rodando o pytest de código na lib. (Será testado apenas o métodos com prefixo test_)
+Rodando o pytest de código na lib. (Será testado apenas os métodos com prefixo test_)
 ```console
 pytest <Nome_Diretorio_Package>
 ```

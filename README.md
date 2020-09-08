@@ -12,14 +12,14 @@
 [![Python 3](https://pyup.io/repos/github/daciolima/libpythonpro/python-3-shield.svg)](https://pyup.io/repos/github/daciolima/libpythonpro/)
 [![codecov](https://codecov.io/gh/daciolima/libpythonpro/branch/master/graph/badge.svg)](https://codecov.io/gh/daciolima/libpythonpro)
 
-#### Teste da lib e medidor de cobertuta de teste.
+#### Cobertura de test e relatório
 Rodando o pytest de código na lib. (Será testado apenas os métodos com prefixo test_)
 ```console
-pytest <Nome_Diretorio_Package>
-```
-Medidor de cobertura de teste
-```console
 pytest libpythonpro --cov=<Pasta_raiz_de_teste>
+```
+Relatorio de teste da cobertura
+```console
+pipenv run codecov
 ```
 
 
@@ -54,6 +54,7 @@ twine upload dist/*
 #### Arquivos de confs
 > - .travis.yml -> Contém as confs de integração contínua do travis-ci;
 > - .pyup.yml -> Confs do medidor de código testados;
+> - .coverage -> Arquivo criado no momento da instalação da lib pytest-cov
 > - .flake8 -> Conf para análise de código dentro das recomendações pep8;
 > - setup.py -> Arquivo para empacotar a lib a ser enviada para o pypi.org;
 > - MANIFEST.in -> Contém informações a serem carregadas na criação da lib pelo setup.py;
